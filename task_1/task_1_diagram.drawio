@@ -1,6 +1,6 @@
 <mxfile host="Electron">
   <diagram name="Page-1" id="Z4RVVCfYxK8tMFu4d8C7">
-    <mxGraphModel dx="734" dy="300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="826" dy="881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,7 +37,7 @@
         <mxCell id="8WN_rm0I0eB_KU5N_Vxe-17" edge="1" parent="1" source="8WN_rm0I0eB_KU5N_Vxe-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="8WN_rm0I0eB_KU5N_Vxe-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8WN_rm0I0eB_KU5N_Vxe-14" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fontSize=12.5;align=center;" value="y = len(words)&lt;br&gt;y &amp;gt; 0&lt;br&gt;y--" vertex="1">
+        <mxCell id="8WN_rm0I0eB_KU5N_Vxe-14" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fontSize=12.5;align=center;" value="y = len(words);&lt;br&gt;y &amp;gt; 0;&lt;br&gt;y--;" vertex="1">
           <mxGeometry height="90" width="135" x="358" y="470" as="geometry" />
         </mxCell>
         <mxCell id="8WN_rm0I0eB_KU5N_Vxe-18" edge="1" parent="1" source="8WN_rm0I0eB_KU5N_Vxe-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;">
@@ -45,7 +45,7 @@
             <mxPoint x="425.72413793103453" y="719.9999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8WN_rm0I0eB_KU5N_Vxe-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" value="Добавление буквы в result из words по индексу [i][y-1]" vertex="1">
+        <mxCell id="8WN_rm0I0eB_KU5N_Vxe-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" value="Добавление words[i][y - 1] в result" vertex="1">
           <mxGeometry height="90" width="135" x="358" y="580" as="geometry" />
         </mxCell>
         <mxCell id="8WN_rm0I0eB_KU5N_Vxe-19" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
@@ -84,7 +84,7 @@
             <mxPoint x="360" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8WN_rm0I0eB_KU5N_Vxe-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" value="Добавление пробела к result" vertex="1">
+        <mxCell id="8WN_rm0I0eB_KU5N_Vxe-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" value="Добавление пробела в result" vertex="1">
           <mxGeometry height="90" width="135" x="358" y="760" as="geometry" />
         </mxCell>
         <mxCell id="8WN_rm0I0eB_KU5N_Vxe-28" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">

@@ -1,5 +1,5 @@
 def main():
-    text = input().replace(",", " ").replace(".", " ")
+    text = input("Enter text: ").replace(",", " ").replace(".", " ")
     words = text.split(" ")
     alphabet = "abcdefghijklmnopqrstuvwxyz"
     encrypted = ""
