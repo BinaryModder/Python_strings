@@ -1,10 +1,10 @@
 <mxfile host="Electron">
   <diagram name="Page-1" id="scZ6AA2qMah0MrYHo6eK">
-    <mxGraphModel dx="585" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="838" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="hAlXhNwVLVAQ3dJW38XU-5" edge="1" parent="1" source="hAlXhNwVLVAQ3dJW38XU-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+        <mxCell id="hAlXhNwVLVAQ3dJW38XU-5" edge="1" parent="1" source="hAlXhNwVLVAQ3dJW38XU-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="hAlXhNwVLVAQ3dJW38XU-11">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="425.5" y="100" as="targetPoint" />
           </mxGeometry>
@@ -19,7 +19,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hAlXhNwVLVAQ3dJW38XU-11" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fontSize=12;" value="Ввод text" vertex="1">
-          <mxGeometry height="90" width="135" x="358" y="100" as="geometry" />
+          <mxGeometry height="90" width="135" x="358" y="109" as="geometry" />
         </mxCell>
         <mxCell id="o0lGDpGC-r1gMk_jobm6-2" edge="1" parent="1" source="hAlXhNwVLVAQ3dJW38XU-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="o0lGDpGC-r1gMk_jobm6-1">
           <mxGeometry relative="1" as="geometry" />
@@ -49,9 +49,6 @@
         </mxCell>
         <mxCell id="hAlXhNwVLVAQ3dJW38XU-20" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fontSize=12;align=center;" value="Передать все символы text от первого до последнего" vertex="1">
           <mxGeometry height="90" width="135" x="358" y="680" as="geometry" />
-        </mxCell>
-        <mxCell id="hAlXhNwVLVAQ3dJW38XU-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="x = 45" vertex="1">
-          <mxGeometry height="20" width="40" x="190" y="70" as="geometry" />
         </mxCell>
         <mxCell id="hAlXhNwVLVAQ3dJW38XU-23" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fontSize=12;" value="Символ - буква из alphabet" vertex="1">
           <mxGeometry height="90" width="135" x="358" y="810" as="geometry" />
