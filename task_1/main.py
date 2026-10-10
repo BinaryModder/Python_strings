@@ -1,12 +1,13 @@
 def main():
-
-    inp = input().split(" ")
+    text = input()
+    words = text.split(" ")
     result = ""
 
-    for i in range(0, len(inp)):
-        for y in range(len(inp[i]), 0, -1):
-            result += inp[i][y - 1]
+    for i in range(0, len(words)):
+        for y in range(len(words[i]), 0, -1):
+            result += words[i][y - 1]
         result += " "
+
     print(result)
 
 

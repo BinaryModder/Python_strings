@@ -1,7 +1,6 @@
 def main():
     text = input().replace(",", " ").replace(".", " ")
     words = text.split(" ")
-
     dict_words = dict()
     sorted_dict = dict()
     sorted_words = ""
@@ -17,11 +16,8 @@ def main():
     for i in range(0, len(sorted_dict)):
         sorted_words += sorted_dict[i][0]
         sorted_words += " "
+
     print(sorted_words.split(" ")[:5])
-
-
-def comp(a, b):
-    return a.value - b.value
 
 
 if __name__ == "__main__":

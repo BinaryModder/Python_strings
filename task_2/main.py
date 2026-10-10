@@ -18,8 +18,8 @@ def main():
         else:
             encrypted += char
 
-    print(f'encrypted : {encrypted}')
-    print(f'K : {k}')
+    print(f"encrypted : {encrypted}")
+    print(f"K : {k}")
 
 
 if __name__ == "__main__":
