@@ -1,14 +1,31 @@
 def main():
-    text = input()
-    words = text.split(" ")
-    result = ""
+    text = input("Введите текст: ")
+    words = []
+    current_word = ""
 
-    for i in range(0, len(words)):
-        for y in range(len(words[i]), 0, -1):
-            result += words[i][y - 1]
-        result += " "
+    for char in text:
+        if char == " ":
+            if current_word:
+                words.append(current_word)
+                current_word = ""
+        else:
+            current_word += char
 
-    print(result)
+    if current_word:
+        words.append(current_word)
+
+    mirrored_words = ""
+    for i in range(len(words) - 1, -1, -1):
+        if mirrored_words:
+            mirrored_words += " "
+        mirrored_words += words[i]
+
+    reversed_text = ""
+    for i in range(len(text) - 1, -1, -1):
+        reversed_text += text[i]
+
+    print(mirrored_words)
+    print(reversed_text)
 
 
 if __name__ == "__main__":

@@ -1,25 +1,34 @@
 def main():
-    text = input("Enter text: ").replace(",", " ").replace(".", " ")
-    words = text.split(" ")
-    alphabet = "abcdefghijklmnopqrstuvwxyz"
-    encrypted = ""
-
-    k = max((len(word) for word in words), default=0)
+    text = input("Введите текст: ")
+    lowercase = "abcdefghijklmnopqrstuvwxyz"
+    uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    current_length = 0
+    k = 0
 
     for char in text:
-        if char.lower() in alphabet:
-            index_in_alp = alphabet.find(char.lower())
-            new_char = alphabet[(index_in_alp+k) % 26]
+        if char in lowercase or char in uppercase:
+            current_length += 1
+            if current_length > k:
+                k = current_length
+        else:
+            current_length = 0
 
-            if char.isupper():
-                encrypted += new_char.upper()
-            else:
-                encrypted += new_char
+    encrypted = ""
+
+    for char in text:
+        if char in lowercase:
+            for i in range(len(lowercase)):
+                if lowercase[i] == char:
+                    encrypted += lowercase[(i + k) % 26]
+        elif char in uppercase:
+            for i in range(len(uppercase)):
+                if uppercase[i] == char:
+                    encrypted += uppercase[(i + k) % 26]
         else:
             encrypted += char
 
-    print(f"encrypted : {encrypted}")
-    print(f"K : {k}")
+    print(encrypted)
+    print(k)
 
 
 if __name__ == "__main__":
