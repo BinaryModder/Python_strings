@@ -1,9 +1,23 @@
 def main():
-    text = input("Введите текст: ")
+    text = ""
+    word = ""
+    dot_appear = False
     lowercase = "abcdefghijklmnopqrstuvwxyz"
     uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     current_length = 0
     k = 0
+
+    while not dot_appear:
+        word = input()
+
+        if text and word:
+            text += " "
+
+        for char in word:
+            if not dot_appear:
+                text += char
+                if char == ".":
+                    dot_appear = True
 
     for char in text:
         if char in lowercase or char in uppercase:

@@ -26,7 +26,8 @@ def main():
     for i in range(0, len(sorted_dict)):
         sorted_words.append(sorted_dict[i][0])
 
-    print(sorted_words[:5])
+    for word in sorted_words[:5]:
+        print(word)
 
 
 if __name__ == "__main__":
